@@ -114,4 +114,18 @@ Recipes that I've learned from systematic design courses from The University of 
      
   Run your script. If you followed the "run early, run often" approach, your What/Why/Dummy and Template steps should have already cleared out syntax errors. Now, you are just fixing the logic until your assert statements stop crashing the program. Once the function is logic-perfect, you'll notice that having 10 assert lines in the middle of your script makes it look messy. In professional Python, we move those examples into a **Unit Test**.
 
+
   
+## Data Design 
+The key element of data design is a data definition. The Data Definition is just a translation guide between your brain and the computer.
+
+**Information (Real World)**: You think about things like "a car's speed," "a user’s name," or "a bank balance."
+
+**Data (Computer World)**: The computer only sees int, str, or float.
+
+A **Data Definition** is the rule that says: "In this program, when you see the number 6, it represents 6 meters per second." Without this rule, the number 6 is just a meaningless piece of data.
+
+A complete data definition consists of five parts that ensure everyone understands what the data is and how to use it:
+
+1. **Structure Definition**
+
